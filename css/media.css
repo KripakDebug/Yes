@@ -1,0 +1,401 @@
+
+@media screen and (max-width: 1525px) {
+    .blockbrands__title{
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .blockbrands__subtitle{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  @media screen and (max-width: 1505px) {
+    .footer__blockinfo{
+        display: flex;
+        justify-content: center;
+    }
+    .header__nav {
+        justify-content: center;
+        align-items: center;
+        border-bottom: none;
+    }
+    .header__nav li {
+        border-bottom: 2px solid #000;
+    }
+    .header__nav .logo {
+        border-left: 2px solid #000;
+        margin-left: 0px;
+    }
+    .header__nav li:last-child {
+        justify-content: center;
+        list-style: none;
+        font-size: 22px;
+        margin-left: 0px;
+        border-right: 2px solid #000;
+        height: inherit;
+        width: 181px;
+    }
+  }
+  @media screen and (max-width: 1192px) {
+    .about__block{
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .header__blocktitle {
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-top: 185px;
+    }
+    .header__title{
+        font-size: 74px;
+        margin-bottom: 35px;
+        position: relative;
+    }
+    .header__nav .logo {
+        width: 246px;
+        margin-left: 0px;
+    }
+    .footer__blocktitle {
+        margin-bottom: 15px;
+        border-right: none;
+        margin-right: 0px;
+    }
+   .footer__blockinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1000px;
+   }
+   .footer__columntext{
+       margin-bottom: 25px;
+   }
+  }
+  @media screen and (max-width: 1033px) {
+      .header{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      .header__content{
+          width: 95%;
+      }
+    .header__photo {
+        margin-right: 0px;
+    }
+    .header__title {
+        font-size: 64px;
+    }
+      .section__bloctextinfo{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+      .section__blocktitle{
+          margin: 25px 0px;
+      }
+      .about__blockinfo{
+          margin-right: 0px;
+      }
+    .about__block{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .footer__blockinfo {
+        max-width: 800px;
+       }
+       .header__nav .logo {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+        width: 146px;
+        margin-left: 0px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .header__blocktitle {
+        width: 450px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 118px;
+    }
+      .header__content{
+          flex-direction: column-reverse;
+      }
+    .header__nav li {
+   width: 131px;
+    }
+  }
+  @media screen and (max-width: 817px) {
+    .blockbrands__title {
+        font-size: 135px;
+    }
+    .blockbrands__subtitle {
+        font-size: 135px;
+    }
+    .footer__blockinfo {
+        max-width: 600px;
+    }
+    .footer__columnbtn:last-child {
+        width: auto;
+        margin-right: 0px;
+    }
+  }
+  @media screen and (max-width: 755px) {
+    .footer__columnbtn {
+        
+     margin-right: 0px; 
+    }
+      .section__blockphoto img{
+          width: 548px;
+          height: 520px;
+      }
+      .blockshop__blockwomen img{
+        width: 620px;
+        height: 520px;
+      }
+      .blockshop__blockman img{
+        width: 620px;
+        height: 520px;
+      }
+    .header__nav li:last-child {
+       display: none;
+    }
+  }
+  @media screen and (max-width: 620px) {
+      .footer__columnbtn{
+          margin-bottom: 15px;
+      }
+    .footer__blockinfo {
+        align-items: center;
+    }
+      .footer__blocktitle{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .footer__blocktext{
+          justify-content: center;
+          align-items: flex-start;
+display: flex;
+flex-direction: column;
+      }
+      .footer__columnbtn:nth-child(1) {
+        width: auto;
+       
+    }
+      .blockshop__blockwomen img{
+        width: 520px;
+        height: 420px;
+      }
+      .blockshop__blockman img{
+        width: 520px;
+        height: 420px;
+      }
+  }
+  @media screen and (max-width: 562px) {
+    .header__content {
+        margin-top: 15px;
+    }
+    .header__nav .logo {
+        font-size: 39px;
+     height: auto;
+      width: 100px;
+    }
+    .header__nav{
+        height: auto;
+    }
+      .section__blockphoto{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      .blockshop__blockwomen{
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+      }
+      .blockshop__blockman{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+      .header__photo{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+    .about__text p {
+        margin-bottom: 15px;
+    }
+      .header__photo img{
+        width: 97%;
+          height: 478px;
+      }
+    .shop a {
+       
+        height: 70px;
+        width:150px;
+    }
+    .blockshop__blockwomen img{
+        width: 97%;
+        height: 320px;
+      }
+      .blockshop__blockman img{
+        width: 97%;
+        height: 320px;
+      }
+    .section__blockphoto img {
+        width: 97%;
+        height: 320px;
+    }
+      .header__nav{
+         display: flex;
+         align-self: flex-start;
+      }
+      .header__title {
+          font-size: 45px;
+        margin-bottom: 25px;
+    }
+    .about__blockinfo{
+        margin-left: 25px;
+        width: 97%;
+    }
+    .product-wrapper{
+        width: 97%;
+    }
+    .blockshop__blockwomen img{
+        width: 97%;
+
+    }
+    .about__blockphoto img{
+        width: 97%;
+height: 390px;
+    }
+    .blockshop__blockman img{
+        width: 97%;
+        
+    }
+    .header__blocktitle {
+         width: auto; 
+         margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 118px;
+    }
+    .section__blockphoto img {
+        width: 97%;
+        height: 380px;
+    }
+    .product-wrapper img{
+        width: 97%;
+        height: 224px;
+    }
+    .header__nav li {
+  display: none;
+    }
+    .blockbrands__title {
+        font-size: 105px;
+    }
+    .blockbrands__subtitle {
+        font-size: 105px;
+    }
+    .nav .title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .about__title{
+        font-size: 45px;
+    }
+    .nav--center .title {
+        font-size: 49px;
+    }
+  }
+  @media screen and (max-width: 393px) {
+    .header__subtitle span div {
+        width: 23px;
+    }
+      .header__subtitle {
+        font-size: 14px;
+    }
+    .header__title {
+        font-size: 30px;
+      margin-bottom: 15px;
+  }
+       .header__content {
+        margin-top: 0px;
+    }
+    .header__nav .logo {
+        font-size: 39px;
+     height: auto;
+      width: 100px;
+    }
+    .header__nav{
+        height: auto;
+    }
+    .footer__icons .footer__icon:nth-child(1) {
+        margin-right: 18px;
+    }
+      .about__blockphoto img{
+width: 300px;
+
+      }
+      .nav .title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+  .text{
+      font-size: 13px;
+  }
+    .about__block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about__blockphoto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      .footer__blockinfo{
+width: 95%;
+      }
+      .footer__columntext{
+          width: 95%;
+      }
+      .footer__subtext{
+          width: auto;
+      }
+      .blockshop__blockwomen img{
+          height: auto;
+      }
+      .blockshop__blockman img{
+        height: auto;
+    }
+    .section__subtitle {
+        font-weight: normal;
+        font-size: 17px;
+        margin-top: 16px;
+    }
+    .section__title h1{
+font-size: 45px;
+    }
+    .nav--center .title {
+        font-size: 39px;
+    }
+    .about__title {
+        font-size: 35px;
+    }
+      .about__text p{
+          font-size: 16px;
+      }
+    .blockbrands__title {
+        font-size: 75px;
+    }
+    .blockbrands__subtitle {
+        font-size: 75px;
+    }
+  }
